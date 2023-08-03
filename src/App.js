@@ -8,7 +8,7 @@ import { GlobalProvider } from './context/GlobalState';
 
 function App() {
   return (
-    <div className="App" style={{border:'1px solid black',padding:'60px'}}> {/* Add the "App" class to the parent container */}
+    <div className="App" >
       <GlobalProvider>
         <Header />
         <div className="container">
